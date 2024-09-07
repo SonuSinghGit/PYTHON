@@ -1,0 +1,5 @@
+m=int(input("enter the  starting number:"))
+n=int(input("enter the ending number:"))
+i=list(range(m+1,n))
+x=list(map(lambda x:x,i ))
+print(sum(x))
